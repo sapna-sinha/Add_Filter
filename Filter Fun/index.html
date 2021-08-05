@@ -1,0 +1,24 @@
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<h1>Image Filter: Coursera Mini-Project</h1>
+
+<div>
+  <canvas id="c1"> </canvas>
+</div>
+
+<div id="divLoadImage">
+  <h2>Load Image</h2>
+  <input type="file" multiple="false" accept="image/*" id="f1" onchange="upload()">
+</div>
+
+
+<div>
+  <h2>Filters</h2>
+  <input type="button" value="Grayscale" id="b1" class="b1" onclick="makeGray()">
+  <input type="button" value="Red" id="b2" class="b1" onclick="makeRed()">
+  <input type="button" value="Darker (10%)" id="b3" class="b1" onclick="makeDark()">
+  <input type="button" value="Rainbow" id="b4" class="b1" onclick="makeRainbow()">
+  <input type="button" value="Blur" id="b5" class="b1" onclick="makeBlur()">
+</div>
+
+<input type="button" value="Reset Image" id="b4" class="b1" onclick="resetImage()">

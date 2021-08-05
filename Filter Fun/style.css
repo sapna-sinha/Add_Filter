@@ -1,0 +1,22 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+  }
+  
+  h1 {
+    color: darkgreen;
+    text-align: left;
+    font-family:Tahoma;
+    text-align: center;
+  }
+  
+  .b1 {
+    background-color: blue;
+    color: yellow;
+    border-radius: 10px;
+  }
+  
+  canvas {
+    height: 200px;
+    border: 1px solid gray;
+  }
